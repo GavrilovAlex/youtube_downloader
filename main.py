@@ -27,6 +27,7 @@ def on_progress(stream, chunk, bytes_remaining):
     pPercentage.configure(text=f"{per}%")
     pPercentage.update()
     progressBar.set(float(percentage_of_completion)/100)
+    print("test")
 
 
 #mSystem settings
